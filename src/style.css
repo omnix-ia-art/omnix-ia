@@ -994,3 +994,122 @@ footer {
     font-size: 16px;
   }
 }
+/* =========================
+   OFFRE DE LANCEMENT
+========================= */
+
+.special-offer {
+    max-width: 650px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 45px 35px;
+}
+
+.offer-label {
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.special-offer h3 {
+    font-size: 36px;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+
+.normal-price {
+    font-size: 18px;
+    opacity: 0.7;
+}
+
+.normal-pricing {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.normal-pricing strong {
+    font-size: 30px;
+    text-decoration: line-through;
+}
+
+.normal-pricing span {
+    margin-bottom: 15px;
+}
+
+.offer-divider {
+    width: 80%;
+    height: 1px;
+    margin: 25px auto;
+    background: currentColor;
+    opacity: 0.3;
+}
+
+.special-offer h4 {
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+
+.special-pricing {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.special-pricing strong {
+    font-size: 48px;
+}
+
+.special-pricing span {
+    margin-bottom: 15px;
+}
+
+.guarantee {
+    margin: 25px 0;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.6;
+}
+
+.pricing-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 15px 30px;
+}
+
+/* 📱 MOBILE */
+
+@media (max-width: 768px) {
+
+    .special-offer {
+        width: calc(100% - 30px);
+        padding: 30px 20px;
+        margin: 0 auto;
+    }
+
+    .special-offer h3 {
+        font-size: 28px;
+    }
+
+    .normal-pricing strong {
+        font-size: 24px;
+    }
+
+    .special-offer h4 {
+        font-size: 20px;
+    }
+
+    .special-pricing strong {
+        font-size: 38px;
+    }
+
+    .guarantee {
+        font-size: 16px;
+    }
+
+    .pricing-button {
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
