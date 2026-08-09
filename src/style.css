@@ -1261,3 +1261,53 @@ footer {
   }
 
 }
+/* ===== NOUVELLE OFFRE ===== */
+
+.pricing-section {
+  background: #ffffff;
+  color: #1f2937;
+}
+
+.pricing-grid {
+  background: transparent;
+}
+
+.pricing-card,
+.offer-card,
+.pricing-card.special-offer {
+  background: #ffffff !important;
+  color: #1f2937 !important;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.pricing-card h1,
+.pricing-card h2,
+.pricing-card h3,
+.pricing-card p,
+.pricing-card span,
+.pricing-card li,
+.offer-card h1,
+.offer-card h2,
+.offer-card h3,
+.offer-card p,
+.offer-card span {
+  color: #1f2937 !important;
+}
+
+/* Offre de lancement */
+.special-offer {
+  background: #ffffff !important;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .pricing-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .pricing-card,
+  .offer-card {
+    width: 100%;
+  }
+}
